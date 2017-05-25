@@ -1,0 +1,13 @@
+.task-page {
+  width: 80vw;
+  margin: 4% auto auto auto;
+}
+.task-page .form-group-custom {
+  width: 40%;
+  margin: auto;
+  opacity: 0.8;
+}
+.task-page .form-group-custom input {
+  border-radius: 0;
+  font-size: 14px;
+}

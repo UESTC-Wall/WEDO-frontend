@@ -1,24 +1,21 @@
 import React, { Component } from "react";
-import { Navbar } from "react-bootstrap";
-import { Link } from "react-router";
+import { FormGroup, FormControl } from "react-bootstrap";
+import { bootstrapUtils } from "react-bootstrap/lib/utils";
+
+import TaskFlow from "./../components/TaskFlow";
 import "./Task.css";
+
+bootstrapUtils.addStyle(FormGroup, 'custom');
 
 class Task extends Component {
   render() {
     return (
-      <Navbar>
-        <Navbar.Header>
-          <Navbar.Brand>
-            <Link to={"task"}>WEDO</Link>
-          </Navbar.Brand>
-          <Navbar.Toggle />
-        </Navbar.Header>
-        <Navbar.Collapse>
-          <Navbar.Text pullRight>
-            登录
-          </Navbar.Text>
-        </Navbar.Collapse>
-      </Navbar>
+      <div className="task-page">
+        <FormGroup controlId="formValidationNull" validationState={null} bsSize="large" bsStyle="custom">
+          <FormControl type="text" placeholder="添加任务..." />
+        </FormGroup>
+        <TaskFlow />
+      </div>
     );
   }
 }

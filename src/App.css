@@ -1,0 +1,21 @@
+.navbar-custom {
+  background: #EA573D;
+  border-radius: 0;
+  display: flex;
+  box-sizing: border-box;
+}
+.navbar-custom .container {
+  height: 8vh;
+  margin-top: 0.9%;
+}
+.navbar-custom .navbar-header a{
+  color: #ffffff;
+  font-size: 20px;
+}
+.navbar-custom .navbar-header a:hover {
+  color: #f5e6ca;
+}
+.navbar-custom .navbar-right {
+  color: #ffffff;
+  font-size: 14px;
+}
