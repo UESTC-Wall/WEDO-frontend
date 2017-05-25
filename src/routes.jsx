@@ -1,9 +1,9 @@
-import React from 'react';
-import { Route, IndexRoute } from 'react-router';
+import React from "react";
+import { Route, IndexRoute } from "react-router";
 
-import App from './App.jsx';
-import Task from './pages/Task';
-import Subtask from './pages/Subtask';
+import App from "./App";
+import Task from "./pages/Task";
+import Subtask from "./pages/Subtask";
 
 const routes = (
   <Route path="/" component={App}>

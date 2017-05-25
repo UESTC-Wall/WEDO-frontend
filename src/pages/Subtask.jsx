@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 class Subtask extends Component {
-  render(){
+  render() {
     return <div>subtask</div>;
   }
 }
