@@ -21,7 +21,8 @@
         "no-else-return": 0,
         "no-return-assign": 0,
         "prefer-stateless-function": 0,
-        "react/prefer-stateless-function": 0
+        "react/prefer-stateless-function": 0,
+        "no-useless-constructor": 0
     },
     "env": {
         "browser": true,

@@ -1,0 +1,6 @@
+.finished-task .finished-symble {
+  display: inline-block;
+}
+.unfinished-task .unfinished-symble {
+  display: inline-block;
+}
